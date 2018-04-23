@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+.hd_ri input{
+	width: 243px;
+	height: 26px;
+	border: 1px solid #C2C2C2;
+}
+.pd_show{
+	 display: inline-block;
+}
+.pd_sw{
+	display: block;
+}
+.pd_no{
+	display: none;
+}
+.hd_rs{
+	position: relative;
+}
+.hd_rs a{
+	position: absolute;
+	top: 1px;
+	right: 0;
+	line-height: 53px;
+}
+.nav ul li{
+	float: left;
+	background-color: #fff;
+}
+.nav ul li a{
+	color: black;
+}
+.nav ul li i{
+	background: url(../img/heixx.png);
+	display: inline-block;
+	width: 10px;
+	height: 5px;
+	vertical-align: middle;
+}
+.banner{
+	width: 100%;
+	height: 337px;
+	border-top: 1px solid #ccc;
+}
+.banner .ban_img{
+	width: 100%;
+	height: 217px;
+	background: url(../img/banpad.png) no-repeat;
+	background-size: 100% 217px;
+}
+
+.banner .pro{
+	height: 120px;
+	background-color: #1570A5;
+	color: #fff;
+	padding-left: 40px;
+}
+.banner .pro h3{
+	font-size: 28px;
+	line-height: 53px;
+}
+.banner .pro p{
+	font-size: 18px;
+}
+.banner .pro p i{
+	line-height: 30px;
+}
+
+
+.news-release{
+	height: 149px;
+	margin-top: 16px;
+	margin-bottom: 25px;
+}
+.news-release ul li{
+	margin-left: 15px;
+	width: 31%;
+	height: 150px;
+	float: left;
+}
+.news-release ul li p{
+	line-height: 26px;
+}
+.news-release ul li div{
+	width: 100%;
+	height: 99px;
+	background: url(../img/tu1.png) no-repeat;
+	background-size: 100% 155px;
+}
+.news-release ul li p a{
+	line-height: 16px;
+	font-size: 16px;
+	color: #1570A6;
+}
+.liaojie2{
+	width: 100%;
+	margin-left: 13px;
+}
+.liaojie2 p{
+	font-size: 30px;
+	line-height: 56px;
+	margin-bottom: 16px;
+}
+.liaojie2 ul li{
+	float: left;
+	font-size: 14px;
+	color: #1570A6;
+	margin-right: 15px;
+}
+.centont_right2{
+	margin-left: 13px;
+}
+.centont_right2 .ul1 li{
+	float: left;
+	font-size: 16px;
+	padding: 8px;
+	margin-bottom: 11px;
+}
+
+.centont_right2 .ul1 li:hover{
+	background-color: #1570A6;
+	color: #FFF1F0;
+}
+.centont_right2 .ul2 li img{
+	width: 40%;
+	margin-right: 24px;
+}
+.centont_right2 .ul2 li{
+	margin-bottom: 41px;
+}
+.centont_right2 .ul3{
+	margin-bottom: 40px;
+}
+.centont_right2 .ul3 li{
+	font-size: 12px;
+	color: #1570A6;
+	line-height: 28px;
+}
+.centont_right2 .ul3 p{
+	font-size: 28px;
+}
+
+.Information div{
+	width: 100%;
+	height: 100%;
+	padding: 17px;
+	box-sizing: border-box;
+	background-color: #115E8A;
+}
+.Information div img{
+	width: 150px;
+	height: 112px;
+}
+.Information ul{
+	width: 100%;
+}
+.Information ul li{
+	float: left;
+}
+.bottom .ul1{
+	width: 50%;
+	height: 480px;
+}
+.bottom .ul2{
+	width: 50%;
+}
+.bottom .flo{
+	width: 50%;
+}
+.bottom .ul1,.bottom .ul2{
+	float: left;
+}
+.bottom .ul2{
+	margin-bottom: 0;
+	margin-top: 0
+}
+
+.bottom .ul6 p{
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.bottom .ul6 li a{
+	color: #1670A2;
+	font-size: 10px;
+}
+
+.bottom .ul7 p{
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.bottom .ul7 li{
+	color: #1670A2;
+	font-size: 10px;
+	line-height: 24px;
+}
+.bottom .ul4 li{
+	float: left;
+}
+.pd_fl{
+	float: left;
+}
+.pd_fr{
+	float: right;
+}
+
+
+
+
