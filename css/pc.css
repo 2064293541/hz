@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+.hd_ri input{
+	width: 381px;
+	height: 26px;
+	border: 1px solid #C2C2C2;
+}
+.hd_rs{
+	position: relative;
+}
+.hd_rs a{
+	position: absolute;
+	top: 1px;
+	right: 0;
+	line-height: 53px;
+}
+.banner{
+	width: 100%;
+	height: 340px;
+	border-top: 1px solid #ccc;
+}
+.banner .ban_img{
+	width: 100%;
+	height: 340px;
+	background: url(../img/banpad.png) no-repeat;
+	background-size: 100% 340px;
+}
+
+.banner .pro{
+	width: 312px;
+	height: 210px;
+	margin-left: 20px;
+	margin-top: -320px;
+	background-color: #1570A5;
+	color: #fff;
+	padding-left: 20px;
+}
+.banner .pro h3{
+	font-size: 28px;
+	line-height: 53px;
+}
+.banner .pro p{
+	font-size: 18px;
+}
+.banner .pro p i{
+	line-height: 30px;
+}
+
+
+.news-release{
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+.news-release ul li{
+	margin-left: 20px;
+	width: 31%;
+	height: 150px;
+	float: left;
+}
+.news-release ul li div{
+	width: 100%;
+	height: 99px;
+	background: url(../img/tu1.png) no-repeat;
+	background-size: 100% 155px;
+}
+.news-release ul li p{
+	margin-top: 10px;
+	line-height: 16px;
+}
+.news-release ul li p a{
+	font-size: 16px;
+	color: #1570A6;
+	line-height: 16px;
+}
+.pc_no{
+	display: none;
+}
+.pc_sw{
+	display: block;
+}
+.liaojie2{
+	margin-left: 20px;
+	width: 26.7%;
+	height: 417px;
+}
+.liaojie2 ul li{
+	float: none;
+	line-height: 39px;
+}
+.centont_right{
+	width: 71.3%;
+	height: 417px;
+}
+.centont_right .centr_top .ul1 li{
+	float: left;
+	font-size: 16px;
+	padding: 8px;
+	margin-bottom: 11px;
+}
+.centont_right .centr_top .ul1 li:hover{
+	background-color: #1570A6;
+	color: #FFF1F0;
+}
+.centont_right .centr_top .ul2 li{
+	width: 32%;
+	height: 227px;
+	float: left;
+}
+.centont_right .centr_top .ul2 li img{
+	width: 100%;
+}
+.centont_right .centr_top .ul2 li p{
+	margin-top: 17px;
+	font-size: 12px;
+}
+.centont_right .centr_top .ul2 .li1{
+	margin-left: 14px;
+	margin-right: 14px;
+}
+.centont_right .centr_dottom ul{
+	float: left;
+}
+.centont_right .centr_dottom .ul1{
+	margin-left: 24%;
+	margin-right:24%
+}
+.centont_right .centr_dottom ul p{
+	font-size: 26px;
+}
+.centont_right .centr_dottom ul li{
+	font-size: 12px;
+	color: #1570A6;
+	line-height: 28px;
+}
+.Information ul{
+	width: 26.7%;
+	height: 100px;
+}
+.Information div{
+	width: 69%;
+}
+.Information ul li{
+	float: none;
+}
+
