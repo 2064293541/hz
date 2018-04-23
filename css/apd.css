@@ -144,6 +144,7 @@
 	width: 100%;
 	height: 100%;
 	padding: 17px;
+	box-sizing: border-box;
 	background-color: #115E8A;
 }
 .Information div img{
@@ -156,7 +157,45 @@
 .Information ul li{
 	float: left;
 }
+.bottom .ul1{
+	width: 50%;
+	height: 480px;
+}
+.bottom .ul2{
+	width: 50%;
+}
+.bottom .flo{
+	width: 50%;
+}
+.bottom .ul1,.bottom .ul2{
+	float: left;
+}
+.bottom .ul2{
+	margin-bottom: 0;
+	margin-top: 0
+}
 
+.bottom .ul6 p{
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.bottom .ul6 li a{
+	color: #1670A2;
+	font-size: 10px;
+}
+
+.bottom .ul7 p{
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.bottom .ul7 li{
+	color: #1670A2;
+	font-size: 10px;
+	line-height: 24px;
+}
+.bottom .ul4 li{
+	float: left;
+}
 
 
 

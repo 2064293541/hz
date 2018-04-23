@@ -126,6 +126,7 @@
 	color: #fff;
 	line-height: 27px;
 	background-color: #115E8A;
+	box-sizing: border-box;
 }
 .Information h1{
 	font-size: 28px;
@@ -140,5 +141,69 @@
 .Information ul .li1{
 	margin-bottom: 12px;
 }
+.bottom{
+	padding-left: 6px;
+}
+.bottom .ul1 li{
+	width: 100%;
+	line-height: 35px;
+}
+.bottom .ul1 li a{
+	margin-left: 10px;
+	line-height: 35px;
+	color: #1670A2;
+}
+.bottom .ul1 p{
+	line-height: 30px;
+}
+.bottom .ul1 li img{
+	vertical-align: middle;
+	width: 26px;
+	height: 26px;
+}
+.bottom .ul2{
+	margin-top: 49px;
+	margin-bottom: 49px;
+}
+.bottom .ul2 p{
+	font-size: 16px;
+}
+.bottom .ul2 li a{
+	color: #1670A2;
+	font-size: 12px;
+}
+.bottom .ul3 li a{
+	color: #1670A2;
+	font-size: 12px;
+}
+.bottom .p1{
+	margin-top: 22px;
+	margin-bottom: 38px;
+}
+.bottom .p1 img{
+	width: 24px;
+	height: 23px;
+}
 
+.bottom .p1 a{
+	color:#1670A2;
+}
+.bottom .p2{
+	color: #6E6E6E;
+	font-weight: bold;
+}
+.bottom .ul4{
+	margin-top: 22px;
+}
+.ul5 li{
+	float: left;
+	font-size: 12px;
+	margin-right: 24px;
+	line-height: 26px;
+	color: #186FA4;
+}
+.bottom .box1{
+	margin-top: 10px;
+	font-size: 12px;
+}
 
