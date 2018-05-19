@@ -1,0 +1,419 @@
+@charset "utf-8";
+/*顶部导航开始*/
+.header{
+	width: 100%;
+	background-color: #000;
+}
+.topnav{
+	display: flex;
+}
+.topnav li{
+	flex: 1;
+	
+	line-height: 42px;
+}
+.topnav li a{
+	color: #5B6170;
+	font-size: 14px;
+}
+/*顶部导航结束*/
+
+/*搜索框开始*/
+.search{
+	height: 42px;
+	margin-top: 28px;
+}
+.search>p{
+	width: 138px;
+	background-color: #6EB92B;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	font-size: 12px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.search div input{
+	width: 423px;
+	height: 34px;
+	border: 2px solid #6EB92B;
+	border-radius: 18px 0 0 18px;
+}
+.search>div{
+	width: 517px;
+	position: relative;
+	margin-top: 3px;
+	margin-left: 233px;
+	margin-right: 130px;
+}
+
+/*放大镜*/
+.search div .i1{
+	color: #7DC041;
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	left: 13px;
+	margin-top: -9px;cursor: pointer;
+}
+/*更多*/
+.search div .i2{
+	position: absolute;
+	top: 50%;
+	right: 100px;
+	color: #7DC041;
+	font-size: 18px;
+	margin-top: -9px;
+	cursor: pointer;
+}
+.search div p{
+	width: 89px;
+	line-height: 38px;
+	background-color: #6EB92B;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 0 18px 18px 0;
+	position: relative;
+	left: -1px;
+	cursor: pointer;
+}
+/*搜索框结束*/
+
+/*小导航开始*/
+.nav li{
+	line-height: 44px;
+	float: left;
+}
+.nav li a{
+	color: #000;
+	font-size: 14px;
+}
+.nav ul:nth-child(1) li{
+	margin-right: 28px;
+}
+.nav ul:nth-child(2) li{
+	margin-left: 28px;
+}
+.navBOT{
+	margin-bottom: 19px;
+}
+/*小导航结束*/
+
+/*首页导航开始*/
+.mainbav{
+	width: 100%;
+	border-bottom: 1px solid #000;
+	
+}
+.mainbav .ul-top{
+	display: flex;
+}
+.mainbav .ul-top li{
+	flex: 1;
+	line-height: 42px;
+	position: relative;
+}
+.mainbav .ul-top li img{
+	position: absolute;
+	left: 32px;
+	margin-left: -5px;
+	bottom: -1px;
+	display: none;
+}
+.mainbav .ul-top li:nth-child(1) img{
+	position: absolute;
+	left: 16px;
+	margin-left: -5px;
+	bottom: -1px;
+	display: none;
+}
+.mainbav .ul-top li a{
+	font-size: 16px;
+	color: #000;
+}
+.mainbav .ul-top li a:hover{
+	color: #5AB00D;
+}
+.mainbav .ul-top li:hover img{
+	display: block;
+}
+.ul-top{
+	padding: 0 69px 0 92px;
+	box-sizing: border-box;
+}
+
+.ul-bot>li{
+	width: 150px;
+	height: 87px;
+	padding: 0 8px;
+	float: left;
+	margin-right: 92px;
+}
+.ul-bot>li:nth-child(5){
+	margin-right: 0;
+}
+.ul1 li{
+	width: 24px;
+	height: 12px;
+	float: left;
+	margin-top: 23px;
+	margin-right: 25px;
+}
+.ul1 li a{
+	font-size: 12px;
+	color: #000;
+	
+}
+.ul1 li:nth-child(3n){
+	margin-right: 0;
+}
+.banner2{
+	margin-bottom: 37px;
+}
+/*首页导航结束*/
+
+/*内容*/
+.main{
+	margin-bottom: 63px;
+}
+/*闲置交易区*/
+.main-top{
+	height: 481px;
+	margin-bottom: 29px;
+}
+.main-top h3{
+	width: 100%;
+	border-left: 3px solid #5BB00D;
+	line-height: 24px;
+	color: #5BB00D;
+	padding-left: 17px;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 14px;
+}
+.mainTopLeft{
+	width: 384px;
+	height: 441px;
+	border: 1px solid #ccc;
+}
+.mainTopLeft img{
+	width: 100%;
+}
+.mainTopLeft p{
+	width: 100%;
+	color: #fff;
+	line-height: 45px;
+	background-color: rgba(0,0,0,.7);
+	text-align: center;
+	font-size: 17px;
+}
+.mainTopRight{
+	width: 814px;
+	height: 443px;
+}
+.mainTopRight ul li{
+	width: 250px;
+	height: 214px;
+	border: 1px solid #ccc;
+	position: relative;
+	float: left;
+	margin-left: 19px;
+}
+.mainTopRight ul li img{
+	width: 100%;
+	height: 100%;
+}
+.mainTopRight ul li p{
+	width: 100%;
+	background-color: rgba(0,0,0,.7);
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+}
+.mainTopLeft,.mainTopRight{
+	float: left;
+}
+/*闲置交易区结束*/
+
+/*热门交易信息*/
+.main-center{
+	margin-bottom: 30px;
+	width: 100%;
+	height: 530px;
+}
+.main-center-left h3{
+	width: 757px;
+	border-left: 3px solid #5BB00D;
+	line-height: 24px;
+	color: #5BB00D;
+	padding-left: 17px;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 14px;
+}
+.main-center-left{
+	width: 757px;
+	height: 528px;
+}
+.main-center-left ul li{
+	line-height: 36px;
+	color: #999999;
+	cursor: pointer;
+	font-size: 16px;
+}
+.main-center-left ul li p{
+	display: inline-block;
+	width: 473px;
+	font-size: 16px;
+}
+.main-center-left ul li a{
+	display: inline-block;
+	width: 193px;
+	color: #999999;
+	font-size: 16px;
+}
+
+/*二手闲置物品*/
+.main-center-right{
+	width: 319px;
+	height: 528px;
+	margin-left: 124px;
+}
+.main-center-right h3{
+	width: 100%;
+	border-left: 3px solid #5BB00D;
+	line-height: 24px;
+	color: #5BB00D;
+	padding-left: 17px;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+
+.main-center-right .ulTop li{
+	float: left;
+	margin-bottom: 10px;
+}
+.main-center-right .ulTop li:nth-child(2n-1){
+	margin-right: 9px;
+}
+.main-center-right .ulBottom li{
+	line-height: 26px;
+}
+.main-center-right .ulBottom li a{
+	color: #666666;
+	font-size: 15px;
+}
+/*二手闲置物品*/
+/*热门交易信息结束*/
+
+/*其他热门信息*/
+.main-bottom{
+	width: 100%;
+	height: 324px;
+}
+.main-bottom>h3{
+	width: 100%;
+	border-left: 3px solid #5BB00D;
+	line-height: 24px;
+	color: #5BB00D;
+	padding-left: 17px;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+.main-bottom ul li{
+	width: 363px;
+	height: 133px;
+	float: left;
+	margin-bottom: 36px;
+	margin-right: 55px;
+	cursor: pointer;
+}
+.main-bottom ul li:nth-child(3n){
+	margin-right: 0;
+}
+.main-bottom ul li h4{
+	color: #666666;
+	font-size: 16px;
+	margin-bottom: 17px;
+	font-weight: normal;
+}
+.main-bottom ul li span{
+	color: #747474;
+	font-size: 14px;
+}
+.main-bottom ul li p{
+	width: 363px;
+	height: 76px;
+	color: #747474;
+	font-size: 14px;
+	line-height: 25px;
+	/*width:363px;
+	height: 76px;
+    white-space: nowrap;
+    overflow: hidden;
+   	text-overflow: ellipsis;*/
+   	
+   	  /*width:363px;
+	  word-break:break-all;
+	  display:-webkit-box;
+	  -webkit-line-clamp:3;
+	  -webkit-box-orient:vertical;
+	  overflow:hidden;*/
+}
+/*其他热门信息结束*/
+
+/*内容结束*/
+
+.footer{
+	width: 100%;
+	height: 501px;
+	border-top: 1px solid #E5E5E5;
+	background-color: #FAFAFA;
+	padding-top: 45px;
+	box-sizing: border-box;
+}
+.hotLink{
+	margin-bottom: 50px;
+}
+.hotLink .p1{
+	color: #444444;
+	font-size: 16px;
+}
+.hotLink .link{
+	margin-top: 23px;
+	line-height: 24px;
+}
+.hotLink .link a{
+	font-size: 12px;
+	color: #838383;
+}
+.hotLink .link i{
+	font-size: 12px;
+	color: #838383;
+	margin: 0 10px;
+}
+.footer .p2{
+	text-align: center;
+	color: #838383;
+	font-size: 12px;
+	
+}
+.footer p a{
+	color: #838383;
+	font-size: 12px;
+}
+.footer p i{
+	font-style: normal;
+	font-size: 12px;
+	color: #838383;
+	margin: 0 4px;
+}

@@ -1,0 +1,563 @@
+@charset "utf-8";
+body{
+	background-image: url(imgs/zhubeijing.png);
+}
+
+/*顶部banner*/
+.top-banner{
+	width: 100%;
+	height: 220px;
+	position: relative;
+	z-index: 1;
+}
+.top-banner img{
+	width: 100%;
+	height: 100%;
+}
+/*顶部banner结束*/
+
+/*导航开始*/
+.nav{
+	height: 42px;
+	background-color: #234455;
+	margin-top: -24px;
+	z-index: 5;
+	position: relative;
+}
+.nav-content{
+	padding: 0 102px;
+	box-sizing: border-box;
+	display: flex;
+}
+.nav-content li{
+	flex: 1;
+	line-height: 42px;
+}
+.nav-content li a{
+	font-size: 14px;
+	color: #fff;
+}
+/*导航结束*/
+
+/*.轮播部分开始*/
+.Broadcast{
+	height: 492px;
+	margin-top: 20px;
+}
+.Broadcast-content{
+	width: 880px;
+	height: 490px;
+	position: relative;
+	overflow: hidden;
+}
+.Broadcast-imgs{
+	height: 490px;
+	position: absolute;
+	top: 0;
+}
+.Broadcast-imgs li{
+	float: left;
+}
+.Broadcast-content a{
+				display: inline-block;
+				width: 50px;
+				text-align: center;
+				line-height: 100px;
+				position: absolute;
+				top: 50%;
+				margin-top: -50px;
+				font-size: 25px;
+				color: #fff;
+				background-color: rgba(0,0,0,.7);
+				opacity: 0;
+			}
+.Broadcast-content:hover a{
+	opacity: 1;
+}
+#zuo{
+	position: absolute;
+	left: 0;
+}
+#you{
+	position: absolute;
+	right: 0;
+}
+
+.Broadcast-right{
+	width: 307px;
+	height: 100%;
+}
+.Broadcast-right-top{
+	width: 303px;
+	height: 108px;
+	border-bottom:1px solid #ccc ;
+}
+.Broadcast-right-top h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.Broadcast-right-top h3 a{
+	font-size: 24px;
+	color: #234455;
+}
+.Broadcast-right-top p{
+	color: #919190;
+	font-size: 14px;
+	line-height: 20px;
+}
+.Broadcast-right-bottom li{
+	width: 303px;
+	height: 85px;
+	margin-top: 11px;
+}
+.Broadcast-right-bottom li div{
+	width: 207px;
+	height: 100%;
+}
+.Broadcast-right-bottom li div span{
+	color: #939392;
+	line-height: 20px;
+	font-size: 14px;
+}
+.Broadcast-right-bottom li div h5{
+	margin-bottom: 10px;
+	
+}
+.Broadcast-right-bottom li div h5 a{
+	color: #333333;
+	font-size: 16px;
+}
+/*轮播结束*/
+
+/*环保*/
+.environmental{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+/*环保结束*/
+
+/*内容一开始*/
+
+.mainOne{
+	height: 515px;
+}
+.mainOne-left{
+	width: 845px;
+	height: 100%;
+}
+
+.mainOne-left-top{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+}
+.mainOne-left-top p{
+	width: 104px;
+	line-height: 38px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainOne-left-top a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+.mainOne-left-btm{
+	width: 100%;
+	height: 465px;
+	margin-top: 10px;
+}
+.mainOne-left-btm ul li{
+	width: 267px;
+	height: 214px;
+	float: left;
+	margin-right: 21px;
+	margin-bottom: 18px;
+}
+.mainOne-left-btm ul li:nth-child(3n){
+	margin: 0;
+}
+.mainOne-left-btm ul li p{
+	width: 100%;
+	line-height: 26px;
+	text-align: center;
+}
+.mainOne-left-btm ul li p a{
+	color: #333333;
+	font-size: 16px;
+}
+
+.mainOne-right{
+	width: 315px;
+	height: 100%;
+}
+.mainOne-right-top{
+	width: 100%;
+	height: 242px;
+}
+
+
+.mainOne-right-top .box{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+}
+.mainOne-right-top .box p{
+	width: 56px;
+	line-height: 38px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainOne-right-top .box a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+.mainOne-right-top-ul{
+	width: 100%;
+	height: 193px;
+	margin-top: 10px;
+}
+.mainOne-right-top-ul li{
+	width: 150px;
+	height: 100%;
+	float: left;
+}
+.mainOne-right-top-ul li:nth-child(1){
+	margin-right: 15px;
+}
+.mainOne-right-top-ul li p{
+	width: 100%;
+	text-align: center;
+}
+.mainOne-right-top-ul li p a{
+	color: #333333;
+	font-size: 14px;
+}
+
+.mainOne-right-btm .box{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+}
+
+.mainOne-right-btm .box p{
+	width: 81px;
+	line-height: 37px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainOne-right-btm .box a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+.mainOne-right-btm-ul li{
+	width: 315px;
+	height: 83px;
+	margin-top: 15px;
+}
+.mainOne-right-btm-ul li p{
+	width: 159px;
+	height: 83px;
+}
+.mainOne-right-btm-ul li p a{
+	color: #444444;
+	font-size: 14px;
+	margin-bottom: 16px;
+	display: block;
+}
+.mainOne-right-btm-ul li p span{
+	color: #808080;
+	font-size: 12px;
+	line-height: 18px;
+}
+/*内容一结束*/
+
+
+
+/*文化专题开始*/
+.mainTwo{
+	height: 510px;
+}
+
+.mainTwo .box{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+	margin-bottom: 10px;
+}
+
+.mainTwo .box p{
+	width: 104px;
+	line-height: 38px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainTwo .box a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+.mainTwo-ul{
+	width: 100%;
+	height: 360px;
+}
+.mainTwo-ul li{
+	width: 548px;
+	height: 160px;
+	float: left;
+	margin-bottom: 20px;
+}
+.mainTwo-ul li:nth-child(2n-1){
+	margin-right: 96px;
+}
+
+.mainTwo-ul li p{
+	width: 296px;
+	height: 100%;
+}
+.mainTwo-ul li p a{
+	color: #234455;
+	font-size: 18px;
+	margin-bottom: 8px;
+	display: block;
+}
+.mainTwo-ul li p span{
+	color: #666666;
+	font-size: 12px;
+	line-height: 21px;
+}
+/*文化专题结束*/
+
+/*旅游分类开始*/
+.mainThree{
+	height: 615px;
+	margin-top: 12px;
+}
+
+.mainThree .box{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+	margin-bottom: 10px;
+}
+
+.mainThree .box p{
+	width: 104px;
+	line-height: 39px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainThree .box a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+.mainThree-ul{
+	width: 100%;
+	height: 564px;
+}
+.mainThree-ul li{
+	width: 285px;
+	height: 268px;
+	margin-bottom: 13px;
+	float: left;
+	margin-right: 20px;
+}
+.mainThree-ul li:nth-child(4n){
+	margin-right: 0;
+}
+.mainThree-ul li p{
+	width: 100%;
+	line-height: 28px;
+	text-align: center;
+	
+	
+}
+.mainThree-ul li p a{
+	font-size: 14px;
+	color: #939293;
+}
+/*旅游分类结束*/
+
+
+/*十六景开始*/
+.mainFour{
+	height: 615px;
+	margin-top: 12px;
+}
+
+.mainFour .box{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+	margin-bottom: 10px;
+}
+
+.mainFour .box p{
+	width: 79px;
+	line-height: 38px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainFour .box a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+.mainFour-ul{
+	width: 100%;
+	height: 564px;
+}
+.mainFour-ul li{
+	width: 285px;
+	height: 268px;
+	margin-bottom: 13px;
+	float: left;
+	margin-right: 20px;
+}
+.mainFour-ul li:nth-child(4n){
+	margin-right: 0;
+}
+.mainFour-ul li p{
+	width: 100%;
+	line-height: 28px;
+	text-align: center;
+	
+	
+}
+.mainFour-ul li p a{
+	font-size: 14px;
+	color: #939293;
+}
+
+/*十六景结束*/
+
+
+/*寺庙智略开始*/
+.mainFive{
+	height: 363px;
+}
+
+.mainFive .box{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+	margin-bottom: 10px;
+}
+
+.mainFive .box p{
+	width: 104px;
+	line-height: 38px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainFive .box a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+
+.mainFive-ul{
+	width: 100%;
+	height: 190px;
+}
+.mainFive-ul li{
+	width: 548px;
+	height: 160px;
+	float: left;
+	margin-bottom: 20px;
+}
+.mainFive-ul li:nth-child(1){
+	margin-right: 96px;
+}
+
+.mainFive li p{
+	width: 296px;
+	height: 100%;
+}
+.mainFive li p a{
+	color: #234455;
+	font-size: 18px;
+	margin-bottom: 8px;
+	display: block;
+}
+.mainFive li p span{
+	color: #666666;
+	font-size: 12px;
+	line-height: 21px;
+}
+
+/*寺庙志略结束*/
+
+/*文化产业开始*/
+.mainSix{
+	height: 334px;
+}
+
+.mainSix .box{
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #E4E4E4;
+	margin-bottom: 10px;
+}
+
+.mainSix .box p{
+	width: 104px;
+	line-height: 38px;
+	color: #234455;
+	font-size: 24px;
+	border-bottom: 2px solid #234455;
+}
+.mainSix .box a{
+	font-size: 14px;
+	color: #000;
+	line-height: 38px;
+}
+
+
+.mainSix-ul{
+	width: 100%;
+	height: 283px;
+}
+.mainSix-ul li{
+	width: 285px;
+	height: 268px;
+	margin-bottom: 13px;
+	float: left;
+	margin-right: 20px;
+}
+.mainSix-ul li:nth-child(4n){
+	margin-right: 0;
+}
+.mainSix-ul li p{
+	width: 100%;
+	line-height: 28px;
+	text-align: center;	
+}
+.mainSix-ul li p a{
+	font-size: 14px;
+	color: #939293;
+}
+/*文化产业结束*/
+
+
+
+
+
+
+
+
+
+
+
+
